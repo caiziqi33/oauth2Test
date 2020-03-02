@@ -101,6 +101,11 @@ public class QQCallbackController {
     @RequestMapping(value="/aiqiyi/qq/testGitValue")
     public String getGitValue(){
         String git ="/usr/paul/git";
-        return git;
+        String test = testNoPass();
+        return git+test;
+    }
+
+    private String testNoPass(){
+        return "noPass";
     }
 }
