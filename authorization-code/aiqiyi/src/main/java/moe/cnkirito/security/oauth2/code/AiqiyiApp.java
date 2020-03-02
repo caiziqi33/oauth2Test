@@ -16,7 +16,7 @@ public class AiqiyiApp {
     public static void main(String[] args) {
         SpringApplication.run(AiqiyiApp.class, args);
     }
-
+    //注入restTemplate接口
     @Bean
     RestTemplate restTemplate(){
         return new RestTemplate();
