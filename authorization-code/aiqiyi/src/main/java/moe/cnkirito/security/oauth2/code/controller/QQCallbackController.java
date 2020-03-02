@@ -90,5 +90,11 @@ public class QQCallbackController {
         response.sendRedirect("http://localhost:8882/qq/info/250577914?access_token="+token);
         //return token;
     }
+	
+	@RequestMapping(value="/aiqiyi/qq/getValue")
+    public String getValue(){
+        String aa = "paul";
+        return aa;
+    }
 
 }
