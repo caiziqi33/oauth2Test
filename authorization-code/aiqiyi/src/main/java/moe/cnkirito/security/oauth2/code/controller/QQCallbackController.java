@@ -94,7 +94,13 @@ public class QQCallbackController {
 	@RequestMapping(value="/aiqiyi/qq/getValue")
     public String getValue(){
         String aa = "paul";
-        return aa;
+        String bb = "3333";
+        return aa+bb;
     }
 
+    @RequestMapping(value="/aiqiyi/qq/testGitValue")
+    public String getGitValue(){
+        String git ="/usr/paul/git";
+        return git;
+    }
 }
